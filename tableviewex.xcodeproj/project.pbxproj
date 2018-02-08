@@ -14,6 +14,7 @@
 		B22AA9C720294024005E3E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22AA9C520294024005E3E25 /* LaunchScreen.storyboard */; };
 		B22AA9D220294024005E3E25 /* tableviewexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AA9D120294024005E3E25 /* tableviewexTests.swift */; };
 		B22AA9DD20294024005E3E25 /* tableviewexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AA9DC20294024005E3E25 /* tableviewexUITests.swift */; };
+		B22AA9EB202950A5005E3E25 /* DwarfRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AA9EA202950A5005E3E25 /* DwarfRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B22AA9D820294024005E3E25 /* tableviewexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableviewexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22AA9DC20294024005E3E25 /* tableviewexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewexUITests.swift; sourceTree = "<group>"; };
 		B22AA9DE20294024005E3E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22AA9EA202950A5005E3E25 /* DwarfRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DwarfRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B22AA9BC20294024005E3E25 /* AppDelegate.swift */,
 				B22AA9BE20294024005E3E25 /* ViewController.swift */,
+				B22AA9EA202950A5005E3E25 /* DwarfRepository.swift */,
 				B22AA9C020294024005E3E25 /* Main.storyboard */,
 				B22AA9C320294024005E3E25 /* Assets.xcassets */,
 				B22AA9C520294024005E3E25 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B22AA9BF20294024005E3E25 /* ViewController.swift in Sources */,
+				B22AA9EB202950A5005E3E25 /* DwarfRepository.swift in Sources */,
 				B22AA9BD20294024005E3E25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

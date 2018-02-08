@@ -8,11 +8,21 @@
 
 import UIKit
 
+extension UIApplication {
+    var dwarfRepository : DwarfRepository
+    {
+        get {
+            return DwarfRepository.shared
+        }
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let dwarfRepo = DwarfRepository()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
